@@ -1,0 +1,8 @@
+Package: msoffice-thumbnailer
+Architecture: all
+Maintainer: Livanh <livanh@bulletmail.org>
+Depends: unoconv, imagemagick, python-gtk2
+Priority: optional
+Version: 0.1
+Description: Thumbnailer for MS Office dcuments 
+ This script creates thumbnails for MS Office documents in PCManFM and other file managers.
