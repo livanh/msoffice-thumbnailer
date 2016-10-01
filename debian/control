@@ -4,5 +4,5 @@ Maintainer: Livanh <livanh@bulletmail.org>
 Depends: unoconv, imagemagick, python-gtk2
 Priority: optional
 Version: 0.1
-Description: Thumbnailer for MS Office dcuments 
+Description: Thumbnailer for MS Office documents 
  This script creates thumbnails for MS Office documents in PCManFM and other file managers.
