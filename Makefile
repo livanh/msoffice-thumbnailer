@@ -1,7 +1,7 @@
 PREFIX=/usr/local
 
 PACKAGE_NAME=msoffice-thumbnailer
-PACKAGE_VERSION=0.1
+PACKAGE_VERSION=0.2
 
 install:
 	install -m 755 src/bin/msoffice-thumbnailer $(PREFIX)/bin
