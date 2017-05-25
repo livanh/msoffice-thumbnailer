@@ -8,8 +8,11 @@ OUTFILE="$2"
 SIZE="$3"
 TMP_DIR="$(mktemp -d -t .msoffice-thumbnailer-XXXXXX)"
 THUMBFILE="thumbnail.pdf"
+BASENAME="$(basename "$INFILE")"
 
-unoconv -e PageRange=1-1 -f pdf  -o "${TMPDIR}/${THUMBFILE}" "${INFILE}"
+if [ "${BASENAME:0:2}" != "~$" ]; then
+    unoconv -e PageRange=1-1 -f pdf  -o "${TMP_DIR}/${THUMBFILE}" "${INFILE}"
+fi
 
 if [ "${TMP_DIR}/${THUMBFILE}" ]; then
     convert "${TMP_DIR}/${THUMBFILE}" -flatten -resize "${SIZE}x${SIZE}" "${OUTFILE}"
