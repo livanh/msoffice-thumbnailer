@@ -1,0 +1,14 @@
+Source: msoffice-thumbnailer
+Maintainer: Livanh <livanh@bulletmail.org>
+Section: gnome
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: msoffice-thumbnailer
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, unoconv, imagemagick
+Priority: optional
+Section: gnome
+Description: Thumbnailer for MS Office documents 
+ This script creates thumbnails for MS Office documents in Nautilus, Nemo, PCManFM, and other file managers following GNOME conventions.
