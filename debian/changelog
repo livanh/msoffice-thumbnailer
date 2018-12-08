@@ -1,4 +1,10 @@
-msoffice-thumbnailer (0.2.1-1) UNRELEASED; urgency=low
+msoffice-thumbnailer (0.2.1-2) testing; urgency=medium
+
+  * Changed email address
+
+ -- Livanh <livanh@protonmail.com>  Sat, 08 Dec 2018 13:01:47 +0100
+
+msoffice-thumbnailer (0.2.1-1) testing; urgency=low
 
   * Initial release.
 
